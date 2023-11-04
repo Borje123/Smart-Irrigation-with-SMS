@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
-#define FIREBASE_HOST "irrigation-1e918-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "aTegM4EqBwC2hrBwIUR0mrrgX7iJfUWbzTqFvEMg"
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 
-#define WIFI_SSID "ZTE_2.4G_xs6YrY" //ZTE_2.4G_xs6YrY, PLDTHOMEFIBR272c0
-#define WIFI_PASSWORD "yyinathh"    //yyinathh, PLDTwifi0708)
+#define WIFI_SSID "" 
+#define WIFI_PASSWORD ""    
 
 // WATER SENSOR PIN
 int waterSens = A0;//set water sensor to A0
